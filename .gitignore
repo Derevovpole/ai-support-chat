@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+*.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python virtualenv
+venv/
+.venv/
+ENV/
+env.bak/
+env/
+
+# IDE
+.idea/
+
+# Frontend node tools (если будут)
+node_modules/
+
+# Cache
+*.db
+*.sqlite
+*.bak
+*.swp

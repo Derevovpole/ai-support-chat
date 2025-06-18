@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Чат поддержки</title>
+  <style>
+
+    body {
+      background: url("nebo_oblaka_goluboj_114581_1920x1080.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ffffff; /* белый */
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* лёгкая тень */
+    }
+
+    #chat {
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 15px;
+    }
+    .user, .bot {
+      margin: 8px 0;
+      padding: 8px 12px;
+      border-radius: 10px;
+      max-width: 70%;
+    }
+    .user {
+      background: #d1e7ff;
+      align-self: flex-end;
+      text-align: right;
+      margin-left: auto;
+    }
+    .bot {
+      background: #e6ffe6;
+      align-self: flex-start;
+      margin-right: auto;
+    }
+    #inputArea {
+      display: flex;
+      gap: 10px;
+    }
+    #input {
+      flex: 1;
+      padding: 10px;
+      font-size: 14px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Онлайн-чат поддержки</h2>
+  <div id="chat" style="display: flex; flex-direction: column;"></div>
+  <div id="inputArea">
+    <input id="input" placeholder="Напишите сообщение..." autofocus />
+    <button onclick="sendMessage()">Отправить</button>
+  </div>
+  <script src="chat.js"></script>
+</body>
+</html>
