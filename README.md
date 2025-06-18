@@ -30,7 +30,10 @@ python run_server.py
 - Запустите frontend / Start frontend:
 cd frontend
 python -m http.server 8080
- 
+
+---
+
+## 🗂️ Структура проекта / Project Structure
  ai-support-chat/
 ├── backend/
 │   ├── main.py              # WebSocket сервер FastAPI
@@ -51,10 +54,10 @@ python -m http.server 8080
 git clone https://github.com/Derevovpole/ai-support-chat.git
 cd ai-support-chat
 
+---
 
-    Лицензия / License
-    MIT License © 2025 Derevovpole
-    Контакты:
-    📧 roman.chervyakov420@gmail.com 
+🧾 Лицензия / License
+MIT License © 2025 Derevovpole
 
-"# ai-support-chat"  
+📫 Контакты / Contacts
+📧 roman.chervyakov420@gmail.com
